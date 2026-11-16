@@ -56,7 +56,7 @@ window.TRAINING_CONTENT = {
    "steps": [
     {
      "id": "ex-1",
-     "text": "**Sample is in the chamber:** press `Exchange`. The stage comes down to the exchange position and the interlock door opens.",
+     "text": "**If Sample is in the chamber:** press `Exchange`. The stage comes down to the exchange position and the interlock door opens.",
      "where": "Keyboard panel · SmartSEM toolbar",
      "media": [
       {
@@ -64,7 +64,29 @@ window.TRAINING_CONTENT = {
        "src": "img/exchange-keyboard.jpg",
        "w": 1536,
        "h": 2040,
-       "alt": "Exchange key on the keyboard panel"
+       "alt": "Exchange key on the keyboard panel",
+       "marks": [
+        {
+         "k": "ring",
+         "x": 0.4669,
+         "y": 0.4815,
+         "label": "Exchange"
+        }
+       ]
+      },
+      {
+       "type": "video",
+       "src": "clips/p-exchange-ex-1-mvs70tmq.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 17.97,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 17.07
+       },
+       "cursor": [],
+       "marks": []
       }
      ]
     },
@@ -100,9 +122,27 @@ window.TRAINING_CONTENT = {
      "media": [
       {
        "type": "image",
-       "src": "img/keyboard-camera.jpg",
-       "w": 699,
-       "h": 527
+       "src": "img/loadlock-hw-mvs76htp.jpg",
+       "marks": [
+        {
+         "k": "box",
+         "label": "NavCam Button",
+         "x": 0.4031,
+         "y": 0.1391,
+         "w": 0.208,
+         "h": 0.2684
+        },
+        {
+         "k": "box",
+         "label": "Make sure you took the picture while the door is open! not closed like this",
+         "x": 0.2329,
+         "y": 0.5256,
+         "w": 0.344,
+         "h": 0.156
+        }
+       ],
+       "w": 453,
+       "h": 381
       }
      ]
     },
@@ -121,7 +161,7 @@ window.TRAINING_CONTENT = {
     },
     {
      "id": "ex-6",
-     "text": "Insert the sample with the rod, **retract the rod**, then press `Store`.",
+     "text": "Insert the sample with the rod,  unscrew and **retract the rod**, then press `Store`.",
      "media": [
       {
        "type": "image",
@@ -131,15 +171,25 @@ window.TRAINING_CONTENT = {
       },
       {
        "type": "image",
-       "src": "img/airlock-store.png",
+       "src": "img/airlock-store-mvs7a1jg.png",
+       "marks": [
+        {
+         "k": "box",
+         "label": "Store",
+         "x": 0.1548,
+         "y": 0.2244,
+         "w": 0.3392,
+         "h": 0.1516
+        }
+       ],
        "w": 221,
-       "h": 553
-      },
-      {
-       "type": "image",
-       "src": "img/loadlock-hw.jpg",
-       "w": 453,
-       "h": 381
+       "h": 553,
+       "crop": {
+        "x": 0.052,
+        "y": 0.017,
+        "w": 0.8913,
+        "h": 0.5791
+       }
       }
      ]
     },
@@ -152,7 +202,15 @@ window.TRAINING_CONTENT = {
        "type": "image",
        "src": "img/keyboard-camera.jpg",
        "w": 699,
-       "h": 527
+       "h": 527,
+       "marks": [
+        {
+         "k": "ring",
+         "x": 0.6082,
+         "y": 0.4123,
+         "label": "Resume"
+        }
+       ]
       }
      ]
     }
@@ -185,15 +243,56 @@ window.TRAINING_CONTENT = {
      "media": [
       {
        "type": "image",
-       "src": "img/sem-stage-screen.png",
-       "w": 1918,
-       "h": 1014
+       "src": "img/exchange-keyboard-mvs7l0ld.jpg",
+       "marks": [
+        {
+         "k": "ring",
+         "x": 0.5638,
+         "y": 0.4913,
+         "label": "Resume"
+        }
+       ],
+       "w": 1536,
+       "h": 2040
       },
       {
-       "type": "image",
-       "src": "img/sem-stage-tab.png",
-       "w": 291,
-       "h": 714
+       "type": "video",
+       "src": "clips/p-sem-sem-1-mvs7ns1i.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 31.25,
+       "pointer": "arrow",
+       "trim": {
+        "start": 0,
+        "end": 30.35
+       },
+       "cursor": [
+        {
+         "t": 2.68,
+         "x": 0.9226,
+         "y": 0.1366,
+         "c": 1
+        },
+        {
+         "t": 12.8,
+         "x": 0.0431,
+         "y": 0.1954,
+         "c": 1
+        },
+        {
+         "t": 27.92,
+         "x": 0.432,
+         "y": 0.8048,
+         "c": 1
+        },
+        {
+         "t": 28.63,
+         "x": 0.7654,
+         "y": 0.9729,
+         "c": 0
+        }
+       ],
+       "marks": []
       }
      ]
     },
@@ -223,6 +322,33 @@ window.TRAINING_CONTENT = {
         "w": 0.319,
         "h": 0.3196
        }
+      },
+      {
+       "type": "video",
+       "src": "clips/p-sem-sem-2-mvs7tfna.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 15.9,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 15
+       },
+       "cursor": [
+        {
+         "t": 4.05,
+         "x": 0.841,
+         "y": 0.3614,
+         "c": 1
+        }
+       ],
+       "marks": [],
+       "crop": {
+        "x": 0.1424,
+        "y": 0.0231,
+        "w": 0.8576,
+        "h": 0.8385
+       }
       }
      ]
     },
@@ -236,38 +362,108 @@ window.TRAINING_CONTENT = {
      ],
      "media": [
       {
+       "type": "video",
+       "src": "clips/p-sem-sem-3-mvs7vw8i.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 29.98,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 9.9
+       },
+       "cursor": [],
+       "marks": [],
+       "crop": {
+        "x": 0,
+        "y": 0,
+        "w": 0.6921,
+        "h": 0.9918
+       }
+      },
+      {
        "type": "image",
-       "src": "img/workstation.jpg",
-       "w": 3847,
-       "h": 2160,
+       "src": "img/sem-stage-tab-mvs7xb7e.png",
        "marks": [
         {
          "k": "box",
-         "x": 0.0047,
-         "y": 0.6824,
-         "w": 0.0655,
-         "h": 0.0102,
-         "label": "M"
+         "label": "M axis for Samples on 0.5mm Silicon",
+         "x": 0.0544,
+         "y": 0.357,
+         "w": 0.8889,
+         "h": 0.0511
         }
        ],
-       "crop": {
-        "x": 0,
-        "y": 0.5773,
-        "w": 0.22,
-        "h": 0.2204
-       }
+       "w": 291,
+       "h": 714
       }
      ]
     },
     {
      "id": "sem-4",
-     "text": "Press the **Camera** button on the SEM keyboard panel.",
+     "text": "Press the **Camera** button on the SEM keyboard panel. Or Change the Detector to SE2",
      "media": [
       {
        "type": "image",
        "src": "img/keyboard-camera.jpg",
        "w": 699,
-       "h": 527
+       "h": 527,
+       "marks": [
+        {
+         "k": "ring",
+         "x": 0.7453,
+         "y": 0.4374,
+         "label": "Camera Button"
+        }
+       ]
+      },
+      {
+       "type": "video",
+       "src": "clips/p-sem-sem-4-mvs7zvyd.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 27.57,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 26.67
+       },
+       "cursor": [
+        {
+         "t": 1.15,
+         "x": 0.516,
+         "y": 0.8027,
+         "c": 1
+        }
+       ],
+       "marks": [
+        {
+         "k": "box",
+         "label": "SE2",
+         "x": 0.4167,
+         "y": 0.788,
+         "w": 0.0638,
+         "h": 0.0399,
+         "t0": 4.9,
+         "t1": 7.9
+        },
+        {
+         "k": "box",
+         "label": "Lower Mag and Bring Focus to 10mm",
+         "x": 0.2299,
+         "y": 0.7565,
+         "w": 0.2376,
+         "h": 0.1009,
+         "t0": 10.05,
+         "t1": 13.05
+        }
+       ],
+       "crop": {
+        "x": 0.003,
+        "y": 0.0273,
+        "w": 0.695,
+        "h": 0.9727
+       }
       }
      ]
     },
@@ -335,26 +531,59 @@ window.TRAINING_CONTENT = {
      "where": "Status bar",
      "media": [
       {
-       "type": "image",
-       "src": "img/workstation.jpg",
-       "w": 3847,
-       "h": 2160,
+       "type": "video",
+       "src": "clips/p-sem-sem-7-mvs83cq5.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 45,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 44.1
+       },
+       "cursor": [],
        "marks": [
         {
          "k": "box",
-         "x": 0.3426,
-         "y": 0.95,
-         "w": 0.1128,
-         "h": 0.0139,
-         "label": "WD 5.2"
+         "label": "Pressing Z delta will move the stage relative + is UP towards to pole piece",
+         "x": 0.0041,
+         "y": 0.2521,
+         "w": 0.0496,
+         "h": 0.0609,
+         "t0": 0.19,
+         "t1": 3.19
+        },
+        {
+         "k": "box",
+         "label": "Watch here for the WD it will follow Z if TrackZ is turned on",
+         "x": 0.3682,
+         "y": 0.7712,
+         "w": 0.1076,
+         "h": 0.1072,
+         "t0": 0.19,
+         "t1": 3.19
+        },
+        {
+         "k": "box",
+         "label": "Use 2mm steps when far away and change to smaller 1 and <1mm steps as you approach the sample",
+         "x": 0.003,
+         "y": 0.1996,
+         "w": 0.1596,
+         "h": 0.1282,
+         "t0": 19.49,
+         "t1": 22.49
+        },
+        {
+         "k": "box",
+         "label": "Notice when you refocus you might need to bring the stage Higher still",
+         "x": 0.3706,
+         "y": 0.7838,
+         "w": 0.0946,
+         "h": 0.0925,
+         "t0": 32.94,
+         "t1": 35.94
         }
-       ],
-       "crop": {
-        "x": 0.2749,
-        "y": 0.7514,
-        "w": 0.2482,
-        "h": 0.2486
-       }
+       ]
       }
      ]
     }
@@ -370,7 +599,7 @@ window.TRAINING_CONTENT = {
   {
    "id": "p-imaging",
    "group": "Procedures",
-   "title": "SEM imaging",
+   "title": "SEM imaging and moving about",
    "summary": "Detector choices.",
    "steps": [
     {
@@ -385,6 +614,136 @@ window.TRAINING_CONTENT = {
       }
      ],
      "hint": "Add a line on when to use each detector (e.g. In-lens for … , ESB for …)."
+    },
+    {
+     "id": "s-z9h03g",
+     "text": "Auto Contrast Brightness, Often you will need to find some nominal B/C to get good imaging quality then you can use the \"Auto C/B\" button in the toolbar to optimize for the current imaging settings",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-imaging-s-z9h03g-mvs8bvq5.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 40.28,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 39.38
+       },
+       "cursor": [
+        {
+         "t": 15.8,
+         "x": 0.1058,
+         "y": 0.5358,
+         "c": 1
+        }
+       ],
+       "marks": [
+        {
+         "k": "box",
+         "label": "Here the Contrast is too low",
+         "x": 0.0041,
+         "y": 0.4917,
+         "w": 0.0875,
+         "h": 0.0799,
+         "t0": 15.8,
+         "t1": 18.8
+        },
+        {
+         "k": "box",
+         "label": "Everything is on but we don't see anything Lets try Auto CB",
+         "x": 0.367,
+         "y": 0.0231,
+         "w": 0.0768,
+         "h": 0.1303,
+         "t0": 0,
+         "t1": 8.31
+        },
+        {
+         "k": "box",
+         "label": "lets raise the Contrast with the contrast knob",
+         "x": 0.0065,
+         "y": 0.4854,
+         "w": 0.0969,
+         "h": 0.1072,
+         "t0": 24.92,
+         "t1": 30
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s-wnkrre",
+     "text": "Quick moving options1: SHIFT+Mouse Click L",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-imaging-s-wnkrre-mvsaa1pf.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 8.07,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 7.17
+       },
+       "cursor": [],
+       "marks": [
+        {
+         "k": "box",
+         "label": "Hold SHIFT and double left click to move ",
+         "x": 0.4876,
+         "y": 0.4623,
+         "w": 0.0863,
+         "h": 0.1492,
+         "t0": 3.09,
+         "t1": 6.09
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s-veof0e",
+     "text": "Quick Moving Option 2: CTL+TAB",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-imaging-s-veof0e-mvsac9w3.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 10.04,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 9.14
+       },
+       "cursor": [],
+       "marks": [
+        {
+         "k": "box",
+         "label": "Click in the view port",
+         "x": 0.38,
+         "y": 0.4434,
+         "w": 0.091,
+         "h": 0.1345,
+         "t0": 0,
+         "t1": 3
+        },
+        {
+         "k": "box",
+         "label": "Ctl+Tab changes the mouse to a Green Crosshair",
+         "x": 0.3812,
+         "y": 0.4392,
+         "w": 0.1312,
+         "h": 0.124,
+         "t0": 3.96,
+         "t1": 6.96
+        }
+       ]
+      }
+     ]
     }
    ],
    "tags": [
@@ -403,7 +762,7 @@ window.TRAINING_CONTENT = {
    "steps": [
     {
      "id": "eds-1",
-     "text": "Bring the sample to **WD 5 mm**.",
+     "text": "Make Sure to bring the sample to **aprox WD 5 mm**.",
      "media": [
       {
        "type": "image",
@@ -455,6 +814,23 @@ window.TRAINING_CONTENT = {
         "h": 0.2204
        }
       }
+     ],
+     "note": "Note it make have been opened behind smartSEM"
+    },
+    {
+     "id": "s-ltw9w5",
+     "text": "Open a Project Folder",
+     "note": "You only need to give it your root folder, it will make a folder with the Project Name that you give it!",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-eds-eds-2-mvs8l5v9-mvs8mu81.webm",
+       "marks": [],
+       "w": 1920,
+       "h": 1080,
+       "cursor": [],
+       "pointer": "halo"
+      }
      ]
     },
     {
@@ -462,21 +838,173 @@ window.TRAINING_CONTENT = {
      "text": "**Insert the EDS spectrometer.**",
      "media": [
       {
-       "type": "image",
-       "src": "img/aztec-layout.png",
-       "w": 3847,
-       "h": 2181
+       "type": "video",
+       "src": "clips/p-eds-eds-3-mvs8nk51.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 11.95,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 11.05
+       },
+       "cursor": [
+        {
+         "t": 0.54,
+         "x": 0.9048,
+         "y": 0.9834,
+         "c": 1
+        },
+        {
+         "t": 2.38,
+         "x": 0.7996,
+         "y": 0.8805,
+         "c": 1
+        },
+        {
+         "t": 3.03,
+         "x": 0.8694,
+         "y": 0.9288,
+         "c": 1
+        }
+       ],
+       "marks": []
       }
      ]
     },
     {
      "id": "eds-4",
-     "text": "Turn off the SmartSEM cameras by toggling to a different view."
+     "text": "Turn off the SmartSEM cameras by toggling to a different view.",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-eds-eds-4-mvs8pnff.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 5.12,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 4.22
+       },
+       "cursor": [],
+       "marks": [
+        {
+         "k": "box",
+         "label": "the light from the chamber scope is overwhelming the detector deadtime, lets turn it off by switching to another view",
+         "x": 0.6483,
+         "y": 0.5127,
+         "w": 0.3369,
+         "h": 0.4182,
+         "t0": 0,
+         "t1": 3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s-zr6fdg",
+     "text": "Take a map!  First take a scan image, then take a map.",
+     "note": "You can change the default settings for each acquisition in the Settings cog",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-eds-s-zr6fdg-mvs8tawy.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 31.11,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 30.21
+       },
+       "cursor": [],
+       "marks": []
+      }
+     ]
+    },
+    {
+     "id": "s-qucm6q",
+     "text": "Well that was silly we didnt change the KeV to excite anything. lets up the Current and Voltage and try again",
+     "note": "you need double the kev in the K or L edge! Hint look at the Mouse pad, or Click and Element in the Aztec pTable to check what that is.",
+     "media": [
+      {
+       "type": "image",
+       "src": "img/beam-settings-mvs8wps1.png",
+       "marks": [],
+       "w": 280,
+       "h": 206
+      },
+      {
+       "type": "video",
+       "src": "clips/p-eds-s-qucm6q-mvs8yvak.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 45,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 44.1
+       },
+       "cursor": [],
+       "marks": []
+      }
+     ]
     },
     {
      "id": "eds-5",
      "text": "When finished: **retract the spectrometer** and close the software.",
-     "warn": "Always retract the detector before moving the stage."
+     "warn": "Always retract the detector before moving the stage.",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-eds-eds-5-mvs8zuhe.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 23.91,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 23.01
+       },
+       "cursor": [],
+       "marks": [
+        {
+         "k": "ring",
+         "x": 0.8978,
+         "y": 0.9792,
+         "label": "",
+         "t0": 0,
+         "t1": 2
+        },
+        {
+         "k": "ring",
+         "x": 0.9072,
+         "y": 0.933,
+         "label": "retract",
+         "t0": 2.26,
+         "t1": 5.26
+        },
+        {
+         "k": "box",
+         "label": "Wait until it is all the way out before closing the software",
+         "x": 0.8091,
+         "y": 0.8153,
+         "w": 0.1773,
+         "h": 0.1387,
+         "t0": 5,
+         "t1": 23.86
+        }
+       ],
+       "crop": {
+        "x": 0.6093,
+        "y": 0.622,
+        "w": 0.3907,
+        "h": 0.378
+       }
+      }
+     ]
     }
    ],
    "tags": [
@@ -497,6 +1025,31 @@ window.TRAINING_CONTENT = {
      "tags": [
       "login",
       "password"
+     ],
+     "media": [
+      {
+       "type": "image",
+       "src": "img/fib-user-mvs93spi.png",
+       "marks": [
+        {
+         "k": "box",
+         "label": "",
+         "x": 0.3481,
+         "y": 0.03,
+         "w": 0.2849,
+         "h": 0.1906
+        }
+       ],
+       "w": 241,
+       "h": 133
+      },
+      {
+       "type": "image",
+       "src": "img/login-info-mvs95lnj.png",
+       "marks": [],
+       "w": 386,
+       "h": 230
+      }
      ]
     },
     {
@@ -505,28 +1058,59 @@ window.TRAINING_CONTENT = {
      "where": "SmartFIB › Image Capture › Probe",
      "media": [
       {
-       "type": "image",
-       "src": "img/workstation.jpg",
-       "w": 3847,
-       "h": 2160,
+       "type": "video",
+       "src": "clips/p-fibprep-fp-2-mvs9c5hs.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 19.43,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 18.53
+       },
+       "cursor": [
+        {
+         "t": 1.7,
+         "x": 0.802,
+         "y": 0.0672,
+         "c": 1
+        }
+       ],
        "marks": [
         {
          "k": "box",
-         "x": 0.8421,
-         "y": 0.7296,
-         "w": 0.0452,
-         "h": 0.012,
-         "label": "30kV:50pA ref"
+         "label": "",
+         "x": 0.724,
+         "y": 0.2332,
+         "w": 0.1395,
+         "h": 0.1009,
+         "t0": 1.7,
+         "t1": 4.7
+        },
+        {
+         "k": "box",
+         "label": "reset to 50pA ref",
+         "x": 0.8115,
+         "y": 0.456,
+         "w": 0.1017,
+         "h": 0.3993,
+         "t0": 7.2,
+         "t1": 10.2
+        },
+        {
+         "k": "box",
+         "label": "open column valve",
+         "x": 0.7181,
+         "y": 0.3488,
+         "w": 0.0674,
+         "h": 0.0714,
+         "t0": 13.12,
+         "t1": 16.12
         }
-       ],
-       "crop": {
-        "x": 0.7547,
-        "y": 0.6254,
-        "w": 0.22,
-        "h": 0.2204
-       }
+       ]
       }
-     ]
+     ],
+     "note": "Please note that the Column Valve won't open until the System vacuum is <1e-5 mbar"
     },
     {
      "id": "fp-3",
@@ -587,17 +1171,6 @@ window.TRAINING_CONTENT = {
      ]
     },
     {
-     "id": "fp-5",
-     "text": "**Eucentric / coincidence — semi-automated:** follow the *FIB Daily Adjust* wizard.",
-     "note": "ZEISS SmartSEM manual §6.1.2 (*Adjusting the Tilt Eucentricity via the FIB Daily Adjust Wizard*).",
-     "tags": [
-      "eucentric",
-      "coincidence",
-      "daily adjust",
-      "wizard"
-     ]
-    },
-    {
      "id": "fp-6",
      "text": "**Eucentric — manual:** reset **Rotation to 0**. Tilt **5°, 10°, 20°, then 54°**, re-centering the sample with **M** at each increment.",
      "where": "Stage tab",
@@ -630,13 +1203,87 @@ window.TRAINING_CONTENT = {
         "w": 0.22,
         "h": 0.2204
        }
+      },
+      {
+       "type": "video",
+       "src": "clips/p-fibprep-fp-6-mvs9iwz8.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 45,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 44.1
+       },
+       "cursor": [],
+       "marks": [
+        {
+         "k": "box",
+         "label": "Set tilt sequentially 0, 10, 20, 54 at each step we will adjust M to bring to the center of the FOV",
+         "x": 0.0053,
+         "y": 0.29,
+         "w": 0.1442,
+         "h": 0.0567,
+         "t0": 2.7,
+         "t1": 5.7
+        },
+        {
+         "k": "box",
+         "label": "i'm using the M button on the console you can see the value change here",
+         "x": 0.0053,
+         "y": 0.3572,
+         "w": 0.1395,
+         "h": 0.0462,
+         "t0": 16.4,
+         "t1": 19.4
+        },
+        {
+         "k": "box",
+         "label": "it can be helpful to look at the sample in the chamber view",
+         "x": 0.6791,
+         "y": 0.5505,
+         "w": 0.2518,
+         "h": 0.332,
+         "t0": 28.16,
+         "t1": 31.16
+        }
+       ]
       }
+     ]
+    },
+    {
+     "id": "fp-5",
+     "text": "**Eucentric / coincidence — semi-automated:** follow the *FIB Daily Adjust* wizard.",
+     "note": "ZEISS SmartSEM manual §6.1.2 (*Adjusting the Tilt Eucentricity via the FIB Daily Adjust Wizard*).",
+     "tags": [
+      "eucentric",
+      "coincidence",
+      "daily adjust",
+      "wizard"
      ]
     },
     {
      "id": "fp-7",
      "text": "On the **FIB** tab, **open** the gun valve.",
-     "where": "SmartSEM control panel › Gun / FIB"
+     "where": "SmartSEM control panel › Gun / FIB",
+     "media": [
+      {
+       "type": "image",
+       "src": "img/fib-panel-mvs9og71.png",
+       "marks": [
+        {
+         "k": "box",
+         "label": "check that the valve is open",
+         "x": 0.0626,
+         "y": 0.3528,
+         "w": 0.5142,
+         "h": 0.0938
+        }
+       ],
+       "w": 391,
+       "h": 596
+      }
+     ]
     },
     {
      "id": "fp-8",
@@ -655,7 +1302,7 @@ window.TRAINING_CONTENT = {
          "y": 0.5259,
          "w": 0.0343,
          "h": 0.013,
-         "label": "F8 = FIB"
+         "label": "F8 = Switch between FIB and SEM view"
         }
        ],
        "crop": {
@@ -673,6 +1320,53 @@ window.TRAINING_CONTENT = {
      "tags": [
       "coincidence",
       "z"
+     ],
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-fibprep-fp-9-mvs9qq9y.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 27.45,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 26.55
+       },
+       "cursor": [],
+       "marks": [
+        {
+         "k": "box",
+         "label": "we used F8 to switch to the FIB view",
+         "x": 0.8469,
+         "y": 0.0294,
+         "w": 0.1158,
+         "h": 0.0735,
+         "t0": 3.71,
+         "t1": 6.71
+        },
+        {
+         "k": "box",
+         "label": "looks like we need to bring the sample to the center with Z",
+         "x": 0.3753,
+         "y": 0.4181,
+         "w": 0.0887,
+         "h": 0.3635,
+         "t0": 5.58,
+         "t1": 8.58
+        },
+        {
+         "k": "box",
+         "label": "Z ",
+         "x": 0.0089,
+         "y": 0.25,
+         "w": 0.1348,
+         "h": 0.0757,
+         "t0": 11.69,
+         "t1": 14.69
+        }
+       ]
+      }
      ]
     },
     {
@@ -705,12 +1399,6 @@ window.TRAINING_CONTENT = {
      "media": [
       {
        "type": "image",
-       "src": "img/smartfib-open.png",
-       "w": 640,
-       "h": 331
-      },
-      {
-       "type": "image",
        "src": "img/workstation.jpg",
        "w": 3847,
        "h": 2160,
@@ -737,7 +1425,7 @@ window.TRAINING_CONTENT = {
      "id": "fi-2",
      "text": "Scan speed: **1** fast live scan · **2** medium (freezes at end of frame) · **3** slow (freezes at end of frame).",
      "where": "SmartFIB › toolbar",
-     "note": "Use **3** before patterning.",
+     "note": "Use **2** before patterning.",
      "media": [
       {
        "type": "image",
@@ -777,6 +1465,205 @@ window.TRAINING_CONTENT = {
    ]
   },
   {
+   "id": "p-fibalign",
+   "group": "Procedures",
+   "title": "FIB alignment - (Advanced Operation)",
+   "summary": "FIB Control › Align tab.",
+   "steps": [
+    {
+     "id": "fa-1",
+     "text": "FIB Align FIB probe Registration",
+     "where": "Here we will try to align the various FIB settings so they have minimal shift between settings",
+     "hint": "Clip idea: the full FIB alignment run (aperture, beam shift, stigmation) with the cursor highlighted.",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-fibalign-fa-1-mvsc9ohh.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 36.66,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 35.76
+       },
+       "cursor": [],
+       "marks": [
+        {
+         "k": "box",
+         "label": "make an annotation marker and set it to transparent",
+         "x": 0.3097,
+         "y": 0.435,
+         "w": 0.227,
+         "h": 0.1702,
+         "t0": 0,
+         "t1": 1.5
+        },
+        {
+         "k": "box",
+         "label": "chose the desired FIB probe",
+         "x": 0.6844,
+         "y": 0.2059,
+         "w": 0.1359,
+         "h": 0.3888,
+         "t0": 1.71,
+         "t1": 4.71
+        },
+        {
+         "k": "box",
+         "label": "adjust the Beam Shift Cor. to bring your feature back to marker",
+         "x": 0.7021,
+         "y": 0.5169,
+         "w": 0.1998,
+         "h": 0.2164,
+         "t0": 6.8,
+         "t1": 9.8
+        },
+        {
+         "k": "box",
+         "label": "Press \"Save\"",
+         "x": 0.6962,
+         "y": 0.2122,
+         "w": 0.1809,
+         "h": 0.1093,
+         "t0": 24.11,
+         "t1": 27.11
+        },
+        {
+         "k": "box",
+         "label": "now going back and forth yields registration",
+         "x": 0.3156,
+         "y": 0.3929,
+         "w": 0.2518,
+         "h": 0.2396,
+         "t0": 26.59,
+         "t1": 36
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s-ftpg5s",
+     "text": "FIB align FIB Probe FOCUS and STIG",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-fibalign-s-ftpg5s-mvscghmb.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 45,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 44.1
+       },
+       "cursor": [],
+       "marks": [
+        {
+         "k": "box",
+         "label": "adjust FOCUS and STIG to desired resolution...then press Save",
+         "x": 0.263,
+         "y": 0.3278,
+         "w": 0.3783,
+         "h": 0.4434,
+         "t0": 0,
+         "t1": 9.48
+        },
+        {
+         "k": "box",
+         "label": "Press Save",
+         "x": 0.7252,
+         "y": 0.1807,
+         "w": 0.169,
+         "h": 0.1597,
+         "t0": 25.78,
+         "t1": 27
+        },
+        {
+         "k": "box",
+         "label": "you can then step through each setting and save focus/stig",
+         "x": 0.6483,
+         "y": 0.1996,
+         "w": 0.2494,
+         "h": 0.269,
+         "t0": 34.12,
+         "t1": 37.12
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s-s4lnap",
+     "text": "FIB Align - Aperture using Wobble Focus",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-fibalign-s-s4lnap-mvscoob9.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 38.63,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 37.73
+       },
+       "cursor": [],
+       "marks": [
+        {
+         "k": "box",
+         "label": "Turn on Wobble from either the Console or the Align tab pulldown",
+         "x": 0.6944,
+         "y": 0.5484,
+         "w": 0.1217,
+         "h": 0.1282,
+         "t0": 2.08,
+         "t1": 5.08
+        },
+        {
+         "k": "box",
+         "label": "Typically shifts are in a diagonal axis, this LEFT/RIGHT shows that both axis need adjustment",
+         "x": 0.2713,
+         "y": 0.4181,
+         "w": 0.2979,
+         "h": 0.1723,
+         "t0": 10.99,
+         "t1": 13.99
+        },
+        {
+         "k": "box",
+         "label": "Coarse Steps are on the outside and FINE steps are on the inside.",
+         "x": 0.6862,
+         "y": 0.4055,
+         "w": 0.1229,
+         "h": 0.1408,
+         "t0": 17.58,
+         "t1": 20.58
+        },
+        {
+         "k": "box",
+         "label": "Once Done Press Save",
+         "x": 0.7027,
+         "y": 0.1933,
+         "w": 0.1489,
+         "h": 0.103,
+         "t0": 30.29,
+         "t1": 33.29
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "align",
+    "alignment",
+    "beam shift",
+    "stigmation"
+   ]
+  },
+  {
    "id": "p-fibmill",
    "group": "Procedures",
    "title": "FIB milling and patterning",
@@ -784,85 +1671,172 @@ window.TRAINING_CONTENT = {
    "steps": [
     {
      "id": "fm-1",
-     "text": "Make sure **eucentric** and **coincidence** are set and you have a slow-scan (3) FIB image.",
+     "text": "Make sure **eucentric** and **coincidence** are set and you have a slow-scan (2 or 3 scan) FIB image.",
      "note": "See *FIB preparation* and *FIB imaging*."
     },
     {
-     "id": "fm-2",
-     "text": "Draw the pattern (**cut** or **Pt depo**) over the feature.",
-     "where": "SmartFIB › left toolbar",
+     "id": "s-19nzwm",
+     "text": "Cut a Box Video. Draw a shape, then set attribute, Expose and Start",
      "media": [
       {
-       "type": "image",
-       "src": "img/fib-cross-section.png",
-       "w": 891,
-       "h": 890,
-       "alt": "Green cross-section pattern over the sample"
-      },
-      {
-       "type": "image",
-       "src": "img/workstation.jpg",
-       "w": 3847,
-       "h": 2160,
+       "type": "video",
+       "src": "clips/p-fibmill-s-19nzwm-mvsb02a3.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 45,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 44.1
+       },
+       "cursor": [
+        {
+         "t": 8.83,
+         "x": 0.6543,
+         "y": 0.1933,
+         "c": 1
+        },
+        {
+         "t": 12.92,
+         "x": 0.2145,
+         "y": 0.0672,
+         "c": 1
+        },
+        {
+         "t": 14.18,
+         "x": 0.6838,
+         "y": 0.3089,
+         "c": 1
+        },
+        {
+         "t": 14.79,
+         "x": 0.5668,
+         "y": 0.5547,
+         "c": 1
+        }
+       ],
        "marks": [
         {
          "k": "box",
-         "x": 0.5005,
-         "y": 0.5463,
-         "w": 0.0094,
-         "h": 0.4051,
-         "label": "Pattern tools"
+         "label": "Collect a new Frame",
+         "x": 0.133,
+         "y": 0.0294,
+         "w": 0.0757,
+         "h": 0.0904,
+         "t0": 0.89,
+         "t1": 3.89
+        },
+        {
+         "k": "box",
+         "label": "Choose a Pattern and create in the window",
+         "x": 0.0018,
+         "y": 0.5842,
+         "w": 0.0579,
+         "h": 0.2396,
+         "t0": 4.47,
+         "t1": 6
+        },
+        {
+         "k": "box",
+         "label": "Define your Operation, here we will do a Cross section",
+         "x": 0.6294,
+         "y": 0.2332,
+         "w": 0.3132,
+         "h": 0.1555,
+         "t0": 9.77,
+         "t1": 12.77
         }
-       ],
-       "crop": {
-        "x": 0.1791,
-        "y": 0.3466,
-        "w": 0.6522,
-        "h": 0.6534
-       }
+       ]
       }
      ],
-     "hint": "Clip idea: pick the cross-section tool, drag a pattern, open Attributes, pick a recipe."
+     "note": "BEFORE Pt or Carbon Depo you MUST do GIS Outgassing"
     },
     {
-     "id": "fm-3",
-     "text": "Open **Attributes** and pick the recipe / depth. Example recipe in the V1 guide: *Cross Section 30 kV 3 nA*.",
-     "where": "SmartFIB › Attributes tab",
+     "id": "s-9a466c",
+     "text": "Follow GIS outgassing BEFORE doing any of the following steps, for More see 'FIB Pt and Carbon Deposition'",
      "media": [
       {
        "type": "image",
-       "src": "img/fib-recipe.png",
-       "w": 467,
-       "h": 348
+       "src": "img/fib-material-options-mvscwazw.png",
+       "marks": [
+        {
+         "k": "box",
+         "label": "",
+         "x": 0.2122,
+         "y": 0.5044,
+         "w": 0.3889,
+         "h": 0.1697
+        },
+        {
+         "k": "box",
+         "label": "",
+         "x": 0.1968,
+         "y": 0.7246,
+         "w": 0.4574,
+         "h": 0.1422
+        },
+        {
+         "k": "box",
+         "label": "",
+         "x": 0.1956,
+         "y": 0.243,
+         "w": 0.6182,
+         "h": 0.1399
+        }
+       ],
+       "w": 516,
+       "h": 266
       }
      ]
     },
     {
-     "id": "fm-4",
-     "text": "**Liftout only:** turn off the touch alarm on the Specimen Current Monitor.",
-     "where": "Specimen Current Monitor",
+     "id": "s-rdqmvz",
+     "text": "View live in SEM",
      "media": [
       {
-       "type": "image",
-       "src": "img/workstation.jpg",
-       "w": 3847,
-       "h": 2160,
+       "type": "video",
+       "src": "clips/p-fibmill-s-rdqmvz-mvsbjy2w.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 45,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 44.1
+       },
+       "cursor": [],
        "marks": [
         {
          "k": "box",
-         "x": 0.6269,
-         "y": 0.1472,
-         "w": 0.0333,
-         "h": 0.0111,
-         "label": "Touch Alarm Disable"
+         "label": "when the operation starts in SmartFIB this will change to Mill+SEM",
+         "x": 0.4675,
+         "y": 0.7775,
+         "w": 0.1253,
+         "h": 0.0946,
+         "t0": 0,
+         "t1": 3
+        },
+        {
+         "k": "box",
+         "label": "notice the imaging already changed to Frame Avg N=10, we can try to scan slower or increase N",
+         "x": 0.0006,
+         "y": 0.1366,
+         "w": 0.1348,
+         "h": 0.3089,
+         "t0": 19.56,
+         "t1": 22.56
+        },
+        {
+         "k": "box",
+         "label": "Additionally We can Change to ESB which is less sensitive to the interference from the Ion beam",
+         "x": 0.3907,
+         "y": 0.664,
+         "w": 0.2411,
+         "h": 0.311,
+         "t0": 34.02,
+         "t1": 37.02
         }
-       ],
-       "crop": {
-        "x": 0.5336,
-        "y": 0.0425,
-        "w": 0.22,
-        "h": 0.2204
-       }
+       ]
       }
      ]
     }
@@ -878,22 +1852,19 @@ window.TRAINING_CONTENT = {
    ]
   },
   {
-   "id": "p-fibalign",
+   "id": "p-gas",
    "group": "Procedures",
-   "title": "FIB alignment",
-   "summary": "FIB Control › Align tab.",
+   "title": "GIS outgassing",
+   "summary": "Do this if you are the first user of the day or if the gasses have not been utilized for a while",
    "steps": [
     {
-     "id": "fa-1",
-     "text": "Open **FIB Control › Align**. The V1 guide circles **Beam Shift Cor**, **Save** and **Spot**.",
-     "where": "FIB Control › Align tab",
+     "id": "gas-1",
+     "text": "Turn **EHT off**.",
+     "where": "SmartSEM › Control tab",
+     "tags": [
+      "eht"
+     ],
      "media": [
-      {
-       "type": "image",
-       "src": "img/fib-align.png",
-       "w": 381,
-       "h": 603
-      },
       {
        "type": "image",
        "src": "img/workstation.jpg",
@@ -902,32 +1873,437 @@ window.TRAINING_CONTENT = {
        "marks": [
         {
          "k": "box",
-         "x": 0.5166,
-         "y": 0.2185,
-         "w": 0.0587,
-         "h": 0.012,
-         "label": "Align tab"
+         "x": 0.0013,
+         "y": 0.5731,
+         "w": 0.0606,
+         "h": 0.0102,
+         "label": "Control tab → EHT"
         }
        ],
        "crop": {
-        "x": 0.4359,
-        "y": 0.1143,
+        "x": 0,
+        "y": 0.468,
         "w": 0.22,
         "h": 0.2204
        }
       }
+     ]
+    },
+    {
+     "id": "gas-2",
+     "text": "**Retract the nozzle.**",
+     "where": "FIB Control › GIS 1",
+     "note": "ZEISS UniGIS manual §5.5 (retract the lance to reduce the influence of the pressure shots on the sample).",
+     "media": [
+      {
+       "type": "image",
+       "src": "img/workstation.jpg",
+       "w": 3847,
+       "h": 2160,
+       "marks": [
+        {
+         "k": "box",
+         "x": 0.5234,
+         "y": 0.3194,
+         "w": 0.0364,
+         "h": 0.0259,
+         "label": "Retract Nozzle"
+        }
+       ],
+       "crop": {
+        "x": 0.4316,
+        "y": 0.2221,
+        "w": 0.22,
+        "h": 0.2204
+       }
+      }
+     ]
+    },
+    {
+     "id": "gas-3",
+     "text": "Open the **Gas Injection System** panel, then click `Outgas…`.",
+     "where": "SmartSEM › Panel Configuration Bar › Gas Injection System",
+     "tags": [
+      "outgas",
+      "gis",
+      "gas injection"
      ],
-     "status": "draft",
-     "hint": "Clip idea: the full FIB alignment run (aperture, beam shift, stigmation) with the cursor highlighted."
+     "media": [
+      {
+       "type": "image",
+       "src": "img/gis-menu.png",
+       "w": 1096,
+       "h": 802
+      },
+      {
+       "type": "video",
+       "src": "clips/p-gas-gas-3-mvs9zneh.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 9.74,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 8.84
+       },
+       "cursor": [
+        {
+         "t": 1.96,
+         "x": 0.1483,
+         "y": 0.4644,
+         "c": 1
+        }
+       ],
+       "marks": [
+        {
+         "k": "box",
+         "label": "Gas Injection System",
+         "x": 0.1271,
+         "y": 0.5757,
+         "w": 0.1229,
+         "h": 0.0651,
+         "t0": 3.15,
+         "t1": 6.15
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gas-4",
+     "text": "**Close the columns** (SEM and FIB safety valves) in the Outgassing panel.",
+     "where": "Outgassing panel",
+     "warn": "Do not start outgassing with the column valves open.",
+     "media": [
+      {
+       "type": "image",
+       "src": "img/gis-outgas.png",
+       "w": 341,
+       "h": 394
+      },
+      {
+       "type": "video",
+       "src": "clips/p-gas-gas-4-mvsa29kj.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 45,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 44.1
+       },
+       "cursor": [
+        {
+         "t": 2.73,
+         "x": 0.5963,
+         "y": 0.4602,
+         "c": 1
+        },
+        {
+         "t": 3.83,
+         "x": 0.4368,
+         "y": 0.685,
+         "c": 1
+        },
+        {
+         "t": 9.83,
+         "x": 0.4415,
+         "y": 0.4938,
+         "c": 1
+        }
+       ],
+       "marks": []
+      }
+     ]
+    },
+    {
+     "id": "gas-5",
+     "text": "Press `Go` and wait about **1 min**. Repeat with **Carbon** (if desired).",
+     "note": "The V1 screenshot shows Open 1.00 s / Close 2.00 s / 20 loops. ZEISS UniGIS manual §5.5 lists the standard values as 0.6 s / 10 s / 10 loops. Use the lab’s agreed values. Outgassing shortens the reservoir life — only do it when needed (reservoir not opened for >12 h).",
+     "tags": [
+      "go",
+      "carbon",
+      "platinum"
+     ]
+    },
+    {
+     "id": "gas-6",
+     "text": "When the outgassing has finished and the system pressure is below **1 × 10⁻⁵ mbar**, press `Open` on the columns and return to work.",
+     "where": "Outgassing panel",
+     "note": "Close the Outgassing panel afterwards — while it is open, the other SmartSEM panels are disabled.",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-gas-gas-6-mvsa66np.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 19.96,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 19.06
+       },
+       "cursor": [
+        {
+         "t": 1.23,
+         "x": 0.4297,
+         "y": 0.6976,
+         "c": 1
+        },
+        {
+         "t": 9.47,
+         "x": 0.4947,
+         "y": 0.6997,
+         "c": 1
+        }
+       ],
+       "marks": []
+      }
+     ]
     }
    ],
    "tags": [
-    "align",
-    "alignment",
-    "beam shift",
-    "stigmation"
+    "gis",
+    "outgas",
+    "platinum",
+    "carbon",
+    "gas"
+   ]
+  },
+  {
+   "id": "p-omniclean",
+   "group": "Procedures",
+   "title": "FIB Pt and Carbon Deposition",
+   "summary": "Depositing Pt and Carbon",
+   "steps": [
+    {
+     "id": "s-1bruhn",
+     "text": "Insert Desired GIS Nozzle",
+     "where": "FIB Control > GIS 1 or GIS 2",
+     "warn": "GIS Outgassing must be performed first",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-omniclean-s-1bruhn-mvsd88ms.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 12.07,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 9.63
+       },
+       "cursor": [
+        {
+         "t": 4.23,
+         "x": 0.7045,
+         "y": 0.3425,
+         "c": 1
+        }
+       ],
+       "marks": [
+        {
+         "k": "box",
+         "label": "Ensure your working distance is >5mm",
+         "x": 0.3712,
+         "y": 0.8027,
+         "w": 0.0993,
+         "h": 0.063,
+         "t0": 0,
+         "t1": 3
+        },
+        {
+         "k": "box",
+         "label": "GIS 1 or GIS2",
+         "x": 0.7352,
+         "y": 0.3299,
+         "w": 0.0567,
+         "h": 0.0525,
+         "t0": 5.62,
+         "t1": 8.62
+        },
+        {
+         "k": "box",
+         "label": "Insert Nozzle",
+         "x": 0.6915,
+         "y": 0.5169,
+         "w": 0.1099,
+         "h": 0.0925,
+         "t0": 6.49,
+         "t1": 9.49
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s-b5fqjs",
+     "text": "Prepare Pattern in SmartFIB",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-omniclean-s-b5fqjs-mvsdcnng.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 45,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 44.1
+       },
+       "cursor": [],
+       "marks": [
+        {
+         "k": "box",
+         "label": "Draw your Pattern",
+         "x": 0.2145,
+         "y": 0.3341,
+         "w": 0.2293,
+         "h": 0.1996,
+         "t0": 1.07,
+         "t1": 4.07
+        },
+        {
+         "k": "box",
+         "label": "Select the Attribute of IonBeam Pt or C",
+         "x": 0.6152,
+         "y": 0.2059,
+         "w": 0.2872,
+         "h": 0.332,
+         "t0": 4.48,
+         "t1": 7.48
+        },
+        {
+         "k": "box",
+         "label": "The default is 300pA 1000nm. ",
+         "x": 0.6129,
+         "y": 0.3257,
+         "w": 0.2423,
+         "h": 0.1303,
+         "t0": 7.74,
+         "t1": 10.74
+        },
+        {
+         "k": "box",
+         "label": "Check that the GIS nozzle actually opens. If not Cancel and Start Again. ",
+         "x": 0.0242,
+         "y": 0.2374,
+         "w": 0.6064,
+         "h": 0.5401,
+         "t0": 22.43,
+         "t1": 25.43
+        },
+        {
+         "k": "box",
+         "label": "It has started to depo",
+         "x": 0.2323,
+         "y": 0.3593,
+         "w": 0.169,
+         "h": 0.1219,
+         "t0": 34.48,
+         "t1": 37.48
+        },
+        {
+         "k": "box",
+         "label": "We can see the depo live in the SEM",
+         "x": 0.3517,
+         "y": 0.7376,
+         "w": 0.1986,
+         "h": 0.1954,
+         "t0": 36.92,
+         "t1": 39.92
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s-lnu995",
+     "text": "Using Drift Correction Marker and Depo",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-omniclean-s-lnu995-mvsdlsam.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 90,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 89.1
+       },
+       "cursor": [],
+       "marks": [
+        {
+         "k": "box",
+         "label": "Add Drift Correction",
+         "x": 0.5774,
+         "y": 0.1471,
+         "w": 0.2222,
+         "h": 0.2669,
+         "t0": 5.84,
+         "t1": 8.84
+        },
+        {
+         "k": "box",
+         "label": "Move the marker to a clear area next to your target",
+         "x": 0.0952,
+         "y": 0.2963,
+         "w": 0.4433,
+         "h": 0.3698,
+         "t0": 8.67,
+         "t1": 11.67
+        },
+        {
+         "k": "box",
+         "label": "Optional: mark first otherwise: live",
+         "x": 0.5999,
+         "y": 0.3131,
+         "w": 0.2778,
+         "h": 0.208,
+         "t0": 10,
+         "t1": 13
+        },
+        {
+         "k": "box",
+         "label": "Registration image",
+         "x": 0.6034,
+         "y": 0.4896,
+         "w": 0.2742,
+         "h": 0.1891,
+         "t0": 15.62,
+         "t1": 18.62
+        },
+        {
+         "k": "box",
+         "label": "it will do an auto image, insert the gis then check it again after",
+         "x": 0.2736,
+         "y": 0.3572,
+         "w": 0.2447,
+         "h": 0.2248,
+         "t0": 50.61,
+         "t1": 60
+        },
+        {
+         "k": "box",
+         "label": "we can see the pattern grow in the SEM",
+         "x": 0.3044,
+         "y": 0.4812,
+         "w": 0.2482,
+         "h": 0.1009,
+         "t0": 88.54,
+         "t1": 89.95
+        }
+       ]
+      }
+     ]
+    }
    ],
-   "status": "draft"
+   "tags": [
+    "FIB depositon",
+    "Carbon",
+    "Platinum"
+   ]
   },
   {
    "id": "p-depcalc",
@@ -1044,182 +2420,151 @@ window.TRAINING_CONTENT = {
    "status": "draft"
   },
   {
-   "id": "p-gas",
-   "group": "Procedures",
-   "title": "GIS outgassing",
-   "summary": "Do this when a precursor reservoir has not been opened for a while.",
-   "steps": [
-    {
-     "id": "gas-1",
-     "text": "Turn **EHT off**.",
-     "where": "SmartSEM › Control tab",
-     "tags": [
-      "eht"
-     ],
-     "media": [
-      {
-       "type": "image",
-       "src": "img/workstation.jpg",
-       "w": 3847,
-       "h": 2160,
-       "marks": [
-        {
-         "k": "box",
-         "x": 0.0013,
-         "y": 0.5731,
-         "w": 0.0606,
-         "h": 0.0102,
-         "label": "Control tab → EHT"
-        }
-       ],
-       "crop": {
-        "x": 0,
-        "y": 0.468,
-        "w": 0.22,
-        "h": 0.2204
-       }
-      }
-     ]
-    },
-    {
-     "id": "gas-2",
-     "text": "**Retract the nozzle.**",
-     "where": "FIB Control › GIS 1",
-     "note": "ZEISS UniGIS manual §5.5 (retract the lance to reduce the influence of the pressure shots on the sample).",
-     "media": [
-      {
-       "type": "image",
-       "src": "img/workstation.jpg",
-       "w": 3847,
-       "h": 2160,
-       "marks": [
-        {
-         "k": "box",
-         "x": 0.5234,
-         "y": 0.3194,
-         "w": 0.0364,
-         "h": 0.0259,
-         "label": "Retract Nozzle"
-        }
-       ],
-       "crop": {
-        "x": 0.4316,
-        "y": 0.2221,
-        "w": 0.22,
-        "h": 0.2204
-       }
-      }
-     ]
-    },
-    {
-     "id": "gas-3",
-     "text": "Open the **Gas Injection System** panel, then click `Outgas…`.",
-     "where": "SmartSEM › Panel Configuration Bar › Gas Injection System",
-     "tags": [
-      "outgas",
-      "gis",
-      "gas injection"
-     ],
-     "media": [
-      {
-       "type": "image",
-       "src": "img/gis-menu.png",
-       "w": 1096,
-       "h": 802
-      }
-     ]
-    },
-    {
-     "id": "gas-4",
-     "text": "**Close the columns** (SEM and FIB safety valves) in the Outgassing panel.",
-     "where": "Outgassing panel",
-     "warn": "Do not start outgassing with the column valves open.",
-     "media": [
-      {
-       "type": "image",
-       "src": "img/gis-outgas.png",
-       "w": 341,
-       "h": 394
-      }
-     ]
-    },
-    {
-     "id": "gas-5",
-     "text": "Press `Go` and wait about **1 min**. Repeat with **Carbon** (if desired).",
-     "note": "The V1 screenshot shows Open 1.00 s / Close 2.00 s / 20 loops. ZEISS UniGIS manual §5.5 lists the standard values as 0.6 s / 10 s / 10 loops. Use the lab’s agreed values. Outgassing shortens the reservoir life — only do it when needed (reservoir not opened for >12 h).",
-     "tags": [
-      "go",
-      "carbon",
-      "platinum"
-     ]
-    },
-    {
-     "id": "gas-6",
-     "text": "When the outgassing has finished and the system pressure is below **1 × 10⁻⁵ mbar**, press `Open` on the columns and return to work.",
-     "where": "Outgassing panel",
-     "note": "Close the Outgassing panel afterwards — while it is open, the other SmartSEM panels are disabled."
-    }
-   ],
-   "tags": [
-    "gis",
-    "outgas",
-    "platinum",
-    "carbon",
-    "gas"
-   ]
-  },
-  {
-   "id": "p-omniclean",
-   "group": "Procedures",
-   "title": "Cleaning the OmniProbe tip",
-   "summary": "Re-shape a dirty probe tip with the FIB.",
-   "steps": [
-    {
-     "id": "oc-1",
-     "text": "Image the probe tip in the FIB and place a **cut pattern** across the end of the tip, as in the V1 guide pictures.",
-     "media": [
-      {
-       "type": "image",
-       "src": "img/omni-tip-clean.png",
-       "w": 767,
-       "h": 520
-      },
-      {
-       "type": "image",
-       "src": "img/omni-tip-recipe.png",
-       "w": 530,
-       "h": 459
-      }
-     ],
-     "status": "draft",
-     "hint": "Clip idea: probe to Tip Coincidence, FIB image of the tip, draw the pattern, mill, retract."
-    }
-   ],
-   "tags": [
-    "omniprobe",
-    "tip",
-    "clean",
-    "probe"
-   ],
-   "status": "draft"
-  },
-  {
    "id": "p-serial",
    "group": "Procedures",
-   "title": "Serial imaging",
+   "title": "Serial imaging - Advanced Application",
    "summary": "Dual SEM/FIB serial imaging (slice and view).",
    "steps": [
     {
      "id": "sv-0",
-     "text": "**Sample prep is critical** — platinum alone typically does not stabilise the sample enough."
+     "text": "Set up your SEM Image and Imaging Conditions\nSet your **Focus, Stig, and Noise Reduction Method**\n\n**Sample prep is critical** — platinum alone typically does not stabilise the sample enough.",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-serial-sv-0-mvselzzt.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 13.57,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 12.67
+       },
+       "cursor": [],
+       "marks": []
+      }
+     ],
+     "where": "**SmartSEM**"
     },
     {
      "id": "sv-1",
-     "text": "Dual-scan imaging is possible. Set the SEM **B/C** and imaging settings **before** pressing Start."
+     "text": "Dual-scan imaging is possible before you start. Set the SEM **B/C** and imaging settings for each channel **before** pressing Start.",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-serial-sv-1-mvsefdh3.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 30.1,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 5.78
+       },
+       "cursor": [
+        {
+         "t": 0.81,
+         "x": 0.1294,
+         "y": 0.0945,
+         "c": 1
+        }
+       ],
+       "marks": [
+        {
+         "k": "box",
+         "label": "dual channel",
+         "x": 0.1164,
+         "y": 0.1513,
+         "w": 0.1489,
+         "h": 0.0735,
+         "t0": 1.87,
+         "t1": 4.87
+        },
+        {
+         "k": "box",
+         "label": "ESB ",
+         "x": 0.7583,
+         "y": 0.8006,
+         "w": 0.0851,
+         "h": 0.0609,
+         "t0": 6.47,
+         "t1": 9.47
+        },
+        {
+         "k": "box",
+         "label": "SE2",
+         "x": 0.4651,
+         "y": 0.9036,
+         "w": 0.0686,
+         "h": 0.0504,
+         "t0": 6.47,
+         "t1": 9.47
+        }
+       ]
+      }
+     ]
     },
     {
      "id": "sv-2",
-     "text": "Suggest setting up the FIB view condition at the mill definition before starting the mill."
+     "text": "Setting up the FIB pattern attribute for Serial Sectioning condition.",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-serial-sv-2-mvseklit.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 23.99,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 23.09
+       },
+       "cursor": [],
+       "marks": []
+      }
+     ],
+     "where": "SmartFIB"
+    },
+    {
+     "id": "s-eqxemo",
+     "text": "Make sure to focus the FIB to get a sharp cut, optionally suggested that you deposit Pt or Carbon to avoid curtaining",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-serial-s-eqxemo-mvserhgp.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 25,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 24.1
+       },
+       "cursor": [],
+       "marks": []
+      }
+     ]
+    },
+    {
+     "id": "s-kujmvz",
+     "text": "Set up the Save Folder",
+     "where": "SmartFIB",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-serial-s-kujmvz-mvsesoy2.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 18.3,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 17.4
+       },
+       "cursor": [],
+       "marks": []
+      }
+     ]
     },
     {
      "id": "sv-3",
@@ -1227,12 +2572,75 @@ window.TRAINING_CONTENT = {
     },
     {
      "id": "sv-4",
-     "text": "You should hear a lot of clicking as it switches between the SEM and the FIB."
+     "text": "You should hear a lot of clicking as it switches between the SEM and the FIB.",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-serial-sv-4-mvsf38kx.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 25.08,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 24.18
+       },
+       "cursor": [],
+       "marks": [
+        {
+         "k": "box",
+         "label": "SSI took an SEM image",
+         "x": 0.2512,
+         "y": 0.208,
+         "w": 0.305,
+         "h": 0.6409,
+         "t0": 7.94,
+         "t1": 10.94
+        },
+        {
+         "k": "box",
+         "label": "now its milling",
+         "x": 0.4699,
+         "y": 0.8153,
+         "w": 0.1253,
+         "h": 0.0483,
+         "t0": 10.41,
+         "t1": 13.41
+        },
+        {
+         "k": "box",
+         "label": "Set \"on start mill\" to Frozen",
+         "x": 0.6129,
+         "y": 0.5253,
+         "w": 0.2033,
+         "h": 0.2963,
+         "t0": 22.06,
+         "t1": 25.01
+        }
+       ]
+      }
+     ]
     },
     {
      "id": "sv-5",
      "text": "**During a pause:** wait for the pause state → answer **Yes** to the hard panel → you may change **Focus, Stig, Noise Reduction, B/C** → press **Continue**.",
-     "warn": "DO NOT change MAG or STORE RESOLUTION."
+     "warn": "DO NOT change MAG or STORE RESOLUTION.",
+     "media": [
+      {
+       "type": "video",
+       "src": "clips/p-serial-sv-5-mvsf6fyu.webm",
+       "w": 1920,
+       "h": 1080,
+       "dur": 36.97,
+       "pointer": "halo",
+       "trim": {
+        "start": 0,
+        "end": 36.07
+       },
+       "cursor": [],
+       "marks": []
+      }
+     ]
     },
     {
      "id": "sv-6",
@@ -1573,6 +2981,14 @@ window.TRAINING_CONTENT = {
      "hint": "Clip: Retract Nozzle."
     }
    ],
+   "tags": [
+    "liftout",
+    "platinum",
+    "pt",
+    "protect",
+    "deposition"
+   ],
+   "status": "draft",
    "widget": {
     "type": "depcalc",
     "presets": [
@@ -1587,15 +3003,7 @@ window.TRAINING_CONTENT = {
      7000
     ],
     "maxDensity": 10
-   },
-   "tags": [
-    "liftout",
-    "platinum",
-    "pt",
-    "protect",
-    "deposition"
-   ],
-   "status": "draft"
+   }
   },
   {
    "id": "l-2",
@@ -1749,10 +3157,6 @@ window.TRAINING_CONTENT = {
      "hint": "Clip: back to 54°, side-cut patterns, leave the tab."
     }
    ],
-   "widget": {
-    "type": "undercut",
-    "angle": 54
-   },
    "tags": [
     "liftout",
     "undercut",
@@ -1760,7 +3164,11 @@ window.TRAINING_CONTENT = {
     "u-cut",
     "tab"
    ],
-   "status": "draft"
+   "status": "draft",
+   "widget": {
+    "type": "undercut",
+    "angle": 54
+   }
   },
   {
    "id": "l-4",
@@ -2789,8 +4197,8 @@ window.TRAINING_CONTENT = {
        "marks": [
         {
          "k": "box",
-         "x": 0.0,
-         "y": 0.0,
+         "x": 0,
+         "y": 0,
          "w": 0.4995,
          "h": 0.4995,
          "label": "OmniProbe 400",
@@ -2799,7 +4207,7 @@ window.TRAINING_CONTENT = {
         {
          "k": "box",
          "x": 0.5005,
-         "y": 0.0,
+         "y": 0,
          "w": 0.4995,
          "h": 0.4995,
          "label": "FIB Control · Airlock · Stage Nav",
@@ -2807,7 +4215,7 @@ window.TRAINING_CONTENT = {
         },
         {
          "k": "box",
-         "x": 0.0,
+         "x": 0,
          "y": 0.5005,
          "w": 0.4995,
          "h": 0.4995,
